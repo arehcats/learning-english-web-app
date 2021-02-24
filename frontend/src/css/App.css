@@ -1,0 +1,31 @@
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+    background-color: rgb(230, 238, 238);
+    font-size: 1vw;
+    
+  }
+  .tableHead{
+    background: white;
+    box-shadow: 2px 1px 4px 0px rgba(89,80,89,1);
+
+}
+#beforeRender{
+  text-align: center;
+  margin-top: 10vh;
+  min-height: 66vh;
+  min-width: 100%;
+}
+.blueBacground > button {
+  background-color: rgb(196, 224, 245);
+    color: rgb(0, 0, 0);
+}
+.blueBacground > button:hover {
+  background-color:rgb(183, 221, 248);
+    color: rgb(0, 0, 0);
+}
+.blueBacground > button:disabled {
+  background-color:rgb(193, 205, 212);
+    color: rgb(0, 0, 0);
+}

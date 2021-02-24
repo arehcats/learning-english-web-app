@@ -1,0 +1,126 @@
+#mojeSlowka {
+    width: 90%;
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 100%;
+    word-break: break-word;
+    min-height: 76vh;
+    
+}
+
+#flex{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+#naglowek{
+    width: 25%;
+}
+#naglowek > h1{
+    padding-left: 6%;
+}
+
+#addWordForm{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 75%;
+
+}
+#addWordSubmit > div {
+    padding: 2%;
+}
+
+#addWordSubmit{
+    display: flex;
+}
+
+
+
+@media screen and (max-width: 599px){
+    #flex{
+        display: unset;
+        width: 100%;
+    }
+    #naglowek{
+        font-size: 17px;
+        width: 100%;
+    }
+    #addWordForm{
+        width: 100%;
+    }
+    #addWordSubmit {
+        width: 100%;
+        display: block;
+
+    }
+    #addWordSubmit > div > div {
+        width: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    #addWordSubmit > div > div > div > input{
+        font-size: 16px;
+        width: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #addWordSubmit > div > button{
+        font-size: 10px;
+        width: 140px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+  }
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    #flex{
+        display: unset;
+        width: 100%;
+    }
+    #naglowek{
+        font-size: 16px;
+        width: 100%;
+    }
+    #addWordForm{
+        width: 100%;
+    }
+    #addWordSubmit {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #addWordSubmit > div > div > div > input{
+        font-size: 15px;
+        width: 120px;
+    }
+    #addWordSubmit > div > button{
+        font-size: 10px;
+        text-align: center;
+        width: 120px;
+    }
+    
+  }
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    #naglowek{
+        font-size: 15px;
+        width: 30%;
+    }
+    #addWordForm{
+        width: 70%;
+    }
+    #addWordSubmit > div > div > div > input{
+        font-size: 14px;
+        width: 150px;
+    }
+    #addWordSubmit > div > button{
+        font-size: 11px;
+    }
+  }

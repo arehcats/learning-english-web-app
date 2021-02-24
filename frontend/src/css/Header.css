@@ -1,0 +1,132 @@
+header {
+    height: 12vh;
+    width: 100%;
+    border-color: rgb(122, 122, 212);
+    font-size: 100%;
+    display: flex;
+    align-items: center;
+    background:  #355cdb;
+}
+
+header > div {
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    
+}
+header > div > * {
+    text-decoration: none;
+    color: white;
+    font-size: 115%;
+    font-family: 'Roboto', sans-serif;
+    line-height: calc(12vh - 4px);
+}
+header > div > * > div  {
+    border-bottom: #355cdb;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    width: 140%;
+    text-align: center;
+}
+header > div > *:hover {
+    color: rgb(9, 255, 0);
+    transition: all  0.3s;
+    cursor: pointer;
+}
+
+
+
+.selected{
+    color: rgb(9, 255, 0);
+    
+}
+
+.selected > div {
+    border-bottom: rgb(9, 255, 0);
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    width: 140%;
+    text-align: center;
+    display: block;
+}
+#centerLogo{
+    height: 12vh;
+    width: 60px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: block;
+    position: relative;
+}
+#centerLogo > a{
+    height: 9vh;
+    width: 60px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: absolute;
+    top: 0; right: 0;
+    bottom: 0; left: 0;
+}
+
+header > div > a > img {
+    height: 9vh;
+    width: 60px;
+}
+
+@media screen and (max-width: 599px){
+    header > div > * {
+        font-size: 310%;
+        line-height: calc(7vh + 3px);
+    }
+    header > div > * > div  {
+        width: 120%;
+    }
+    .selected > div {
+        width: 120%;
+    }
+    header > div > a > img {
+        height: 7vh;
+        width: 45px;
+    }
+    header > div {
+        padding: 0%;
+    }
+    header {
+        height: 8vh;
+    }
+    #centerLogo{
+        height: 8vh;
+        width: 45px; 
+    }
+    #centerLogo > a{
+        height: 7vh;
+        width: 45px;
+    }
+  }
+  @media screen and (min-width: 600px) and (max-width: 767px) {
+    header > div > * {
+        font-size: 250%;
+    }
+    header > div > a > img {
+        height: 9vh;
+        width: 60px;
+    }
+    header > div {
+        padding: 0%;
+    }
+
+  }
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    header > div > * {
+        font-size: 160%;
+    }
+    header > div > a > img {
+        height: 10vh;
+        width: 60px;
+    }
+    header > div {
+        padding: 0%;
+    }
+  }

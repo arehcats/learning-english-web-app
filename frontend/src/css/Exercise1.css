@@ -1,0 +1,308 @@
+#exerciseContent{
+    width: 90%;
+    max-width: 100vw;
+    padding-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    min-height: 76vh;
+}
+
+#answer{
+    text-align: center
+    
+}
+/* #answer > div > button {
+    background-color: rgb(213, 228, 231);
+    border-color:rgb(216, 219, 0);
+    box-shadow: 0px 0px 0px 3px rgb(226, 230, 0);
+    
+} */
+
+#answer > div{
+    padding-top: 1%;
+    
+}
+#answer > div > button:disabled {
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    -webkit-box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.75);
+}
+#answer > div > button{
+    width: 70%;
+    text-transform: unset;
+    font-size: 120%;
+}
+#answer > div > div > div > input{
+
+    min-width: 500px;
+    text-transform: unset;
+    font-size: 120%;
+    text-align: center; 
+    padding: 1%;
+}
+#answer > div > div {
+    padding: 1%;
+}
+
+#infoBar{
+    border-radius: 9px;
+    text-align: center;
+    width: 80%;
+    margin-top: 3%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#word{
+    padding-top: 1%;
+    font-size: 200%;
+    color: rgb(4, 173, 41);
+}
+#word > img{
+    width: 40px;
+    height: 40px;
+}
+
+#centerLoading{
+    text-align: center;
+    padding-top: 10%;
+}
+#nextWord{
+    margin-top: 2%;
+    width: 12%;
+    text-transform: unset;
+}
+#showCorrectAnswer{
+    font-size: 20px;
+    min-height: 25px;
+}
+#exercise{
+    padding-bottom: 30px;
+}
+
+#rules > h2  {
+    text-align: left;
+    padding-left: 20px;
+}
+#rules {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 9px;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 17px;
+    padding-right: 50%;
+    border-top: rgb(125, 124, 131);
+    border-top-style: solid;
+}
+#rules > ul {
+    list-style: none;
+    text-align: justify;
+  }
+#rules > ul > li {
+    padding-top: 10px;
+  }
+  
+#rules > ul li::before {
+    content: "\2022";
+    color: rgb(65, 83, 236);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+  #optionsButtons{
+    padding-bottom: 5px;
+  }
+  #optionsButtons > button {
+    text-transform: unset;
+    width: 190px;
+    margin-left: 5px;
+    height: 35px;
+  }
+  #saveFeedback{
+      color: rgb(7, 216, 0);
+      margin-bottom: 10px;
+      min-height: 23px;
+      border-bottom: rgb(94, 94, 238);
+      border-bottom-style: solid;
+  }
+
+  
+@media screen and (max-width: 599px){
+    #answer > div {
+        font-size: 12px;
+        margin: 7px;
+    }
+    #optionsButtons{
+        padding-bottom: 15px;
+      }
+      #optionsButtons > button {
+        width: 200px;
+        margin-left: 5px;
+        font-size: 12px;
+        margin-bottom: 7px;
+
+      }
+    #answer > div > div > div > input{
+    
+        min-width: 250px;
+        font-size: 18px;
+        padding: 2%;
+    } 
+    #infoBar{
+        border-radius: 9px;
+        text-align: center;
+        width: 80%;
+        margin-top: 3%;
+        margin-bottom: 15px;
+        font-size: 19px;
+    }
+    #infoBar > h1{ 
+        font-size: 33px;
+    }
+    #infoBar > div{ 
+        padding-bottom: 15px;
+    }
+
+    #nextWord{
+        font-size: 13px;
+        width: 130px;
+        margin-top: 10px;
+
+    }
+    #showCorrectAnswer{
+        font-size: 21px !important;
+        min-height: 25px;
+        margin: 10px;
+    }
+    
+    #rules > h2  {
+        text-align: left;
+        padding-left: 20px;
+    }
+    #rules {
+        font-size: 16px;
+        padding-right: 7%;
+    }
+
+    #rules > ul > li {
+        padding-top: 10px;
+      }
+  }
+  @media screen and (min-width: 600px) and (max-width: 767px) {
+    #optionsButtons{
+        padding-bottom: 15px;
+      }
+      #optionsButtons > button {
+        width: 170px;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 13px;
+        margin-bottom: 5px;
+      }
+    #answer > div > div > div > input{
+    
+        min-width: 350px;
+        font-size: 18px;
+        padding: 2%;
+    } 
+    #infoBar{
+        border-radius: 9px;
+        text-align: center;
+        width: 80%;
+        margin-top: 3%;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 19px;
+    }
+    #infoBar > h1{
+        
+        font-size: 33px;
+    }
+   
+    #nextWord{
+        width: 130px;
+    }
+    #nextWord{
+        font-size: 13px;
+    }
+    #showCorrectAnswer{
+        font-size: 22px;
+        min-height: 25px;
+    }
+    
+    #rules > h2  {
+        text-align: left;
+        padding-left: 20px;
+    }
+    #rules {
+        font-size: 16px;
+        padding-right: 5%;
+    }
+
+    #rules > ul > li {
+        padding-top: 10px;
+      }
+
+  }
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    /* #word {
+        width: 200px;
+        height: 100px;
+    } */
+    #optionsButtons{
+        padding-bottom: 15px;
+      }
+      #optionsButtons > button {
+        width: 170px;
+        margin-left: 5px;
+        font-size: 13px;
+      }
+    #answer > div > div > div > input{
+    
+        min-width: 350px;
+        font-size: 18px;
+        padding: 2%;
+    } 
+    #infoBar{
+        border-radius: 9px;
+        text-align: center;
+        width: 80%;
+        margin-top: 3%;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 19px;
+    }
+    #infoBar > h1{
+        
+        font-size: 33px;
+    }
+   
+    #nextWord{
+        width: 130px;
+    }
+    #nextWord{
+        font-size: 13px;
+    }
+    #showCorrectAnswer{
+        font-size: 22px;
+        min-height: 25px;
+    }
+    
+    #rules > h2  {
+        text-align: left;
+        padding-left: 20px;
+    }
+    #rules {
+        font-size: 16px;
+        padding-right: 35%;
+    }
+
+    #rules > ul > li {
+        padding-top: 10px;
+      }
+      
+  }

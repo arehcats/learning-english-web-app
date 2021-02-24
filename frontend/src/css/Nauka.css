@@ -1,0 +1,447 @@
+#wyborCwiczenia{
+    text-align: center
+
+}
+#wyborCwiczenia > h1{
+    padding-top: 10px;
+}
+
+#wyborCwiczenia > div{
+    padding-top: 1%;
+    
+}
+#marginSubmitButton{
+    margin-top: 15px;
+}
+#wyborCwiczenia > div > button:disabled {
+    background: rgb(149, 240, 122);
+    color: rgb(0, 0, 0);
+}
+#wyborCwiczenia > div > button {
+    background-color: rgb(203, 229, 247);
+    color: rgb(0, 0, 0);
+}
+#wyborCwiczenia > div > button:hover {
+    background-color:rgb(183, 221, 248);
+    color: rgb(0, 0, 0);
+}
+#wyborCwiczenia > div > button{
+    width: 70%;
+    text-transform: unset;
+    font-size: 100%;
+}
+#NaukaSubmit{
+    padding-top: 0%;
+}
+#NaukaSubmit > div{
+    padding-top: 0%;
+    padding-bottom: 1%;
+    text-align: center; 
+
+}
+#NaukaSubmit > div > div > div > input{
+    text-align: center; 
+    padding: 1%;
+    
+}
+#NaukaSubmit > div > div {
+    width: 30%;
+}
+#NaukaSubmit > div > div > div {
+    padding-bottom: 1%;
+}
+#NaukaSubmit > div > div > div > input::before {
+    padding-bottom: 1%;
+}
+#customized-menu > div > ul > li > div > span {
+    font-size: 14px;
+}
+#backToChangeCategory{
+    padding-top: 0.5%;
+}
+#backToChangeCategory > button{
+    width: 155px;
+    height: 30px;
+    text-transform: unset;
+    background-color: rgb(136, 248, 132);
+    font-size: 15px;
+}
+#backToChangeCategory > button:hover{
+    background-color: rgb(120, 250, 116);
+}
+#loadSaveButtton > button {
+    width: 120px;
+    height: 30px;
+    font-size: 11px;
+    text-transform: unset;
+    margin-left: auto;
+    margin-right: auto;
+}
+#loadSave {
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+#containerSelectCategory{
+    background: #fffefe;
+    border-radius: 9px;
+    text-align: center;
+    padding: 2%;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+#containerSelectCategory > div {
+    text-decoration: none;
+    color: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#containerSelectCategory > div {
+
+    background: rgb(238, 237, 237);
+    box-shadow: 1px 1px 2px 0px rgba(89,80,89,1);
+    width: 15vw;
+    height: 14vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    border-radius: 9px;
+
+}
+#containerSelectCategory  > div:hover {
+
+    color: rgb(0, 118, 214);
+    transform: scale(1.01);
+    transition: all  .2s;
+
+}
+
+#containerSelectCategory > div > div
+{
+    padding-top: 10%;
+    font-size: 120%;
+
+}
+
+
+
+
+#containerSelectCategory  > div > img 
+{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+    width: 50%;
+}
+#h1SelectKategory{
+    text-align: center;
+    font-size: 17px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 599px){
+    #containerSelectCategory  > div {
+        width: 35vw;
+        height: 26vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+        
+    #containerSelectCategory  > div > div{
+    padding-top: 4%;
+    font-size: 250%;
+    }
+
+    #loadSaveButtton > button {
+        width: 160px;
+        height: 30px;
+        font-size: 11px;
+    }
+    #loadSave {
+        margin: auto;
+        margin-left: 12%;
+        text-align: center;
+    }
+    #customized-menu > div > ul > li > div > span {
+        font-size: 13px;
+    }
+    #h1SelectKategory{
+        font-size: 13px;
+    }
+
+    
+
+    #wyborCwiczenia > div{
+        padding-top: 3%;
+        
+    }
+    #wyborCwiczenia > div > button:disabled {
+        background: rgb(149, 240, 122);
+        color: rgb(0, 0, 0);
+    }
+    #wyborCwiczenia > div > button {
+        background-color: rgb(203, 229, 247);
+        color: rgb(0, 0, 0);
+    }
+    #wyborCwiczenia > div > button:hover {
+        background-color:rgb(183, 221, 248);
+        color: rgb(0, 0, 0);
+    }
+    #wyborCwiczenia > div > button{
+        width: 240px;
+        height: 70px;
+        font-size: 14px;
+    }
+    #NaukaSubmit{
+        padding-top: 0%;
+    }
+    #NaukaSubmit > div{
+        padding-top: 0.5%;
+        padding-bottom: 2%;
+    
+    }
+    #NaukaSubmit > div > div > div > input{
+        padding: 0%;
+        font-size: 20px;
+    }
+    #NaukaSubmit > div > div {
+        width: 270px;
+    }
+    #NaukaSubmit > div > div > div {
+        padding-bottom: 1%;
+    }
+    #NaukaSubmit > div > div > div > input::before {
+        padding-bottom: 1%;
+    }
+    #NaukaSubmit > div > div > label {
+        font-size: 12px;
+    }
+    #NaukaSubmit > div > button{
+        font-size: 15px;
+    
+    }
+    #backToChangeCategory{
+        padding-top: 0.5%;
+    }
+    #backToChangeCategory > button{
+        width: 185px;
+        height: 32px;
+        font-size: 16px;
+    }
+    #containerKategorie > div > h1{
+        font-size: 22px;
+    }
+    #containerKategorie > div{
+        font-size: 15px;
+        padding-top: 7px;
+    }
+    
+
+
+  }
+  @media screen and (min-width: 600px) and (max-width: 767px) {
+
+    #containerSelectCategory  > div {
+        width: 25vw;
+        height: 22vw;    
+    }
+        
+    #containerSelectCategory > div > div{
+    padding-top: 7%;
+    font-size: 230%;
+    }
+
+    #loadSaveButtton > button {
+        width: 190px;
+        height: 30px;
+        font-size: 15px;
+    }
+    #customized-menu > div > ul > li > div > span {
+        font-size: 14px;
+    }
+    #h1SelectKategory{
+        font-size: 13px;
+    }
+
+
+
+    #wyborCwiczenia > div{
+        padding-top: 1%;
+        
+    }
+    #wyborCwiczenia > div > button:disabled {
+        background: rgb(149, 240, 122);
+        color: rgb(0, 0, 0);
+    }
+    #wyborCwiczenia > div > button {
+        background-color: rgb(203, 229, 247);
+        color: rgb(0, 0, 0);
+    }
+    #wyborCwiczenia > div > button:hover {
+        background-color:rgb(183, 221, 248);
+        color: rgb(0, 0, 0);
+    }
+    #wyborCwiczenia > div > button{
+        width: 430px;
+        height: 40px;
+        font-size: 15px;
+    }
+    #NaukaSubmit{
+        padding-top: 0%;
+    }
+    #NaukaSubmit > div{
+        padding-top: 0.5%;
+        padding-bottom: 2%;
+    
+    }
+    #NaukaSubmit > div > div > div > input{
+        padding: 0%;
+        font-size: 20px;
+    }
+    #NaukaSubmit > div > div {
+        width: 330px;
+    }
+    #NaukaSubmit > div > div > div {
+        padding-bottom: 1%;
+    }
+    #NaukaSubmit > div > div > div > input::before {
+        padding-bottom: 1%;
+    }
+    #NaukaSubmit > div > div > label {
+        font-size: 15px;
+    }
+    #NaukaSubmit > div > button{
+        font-size: 18px;
+    
+    }
+    #backToChangeCategory{
+        padding-top: 0.5%;
+    }
+    #backToChangeCategory > button{
+        width: 185px;
+        height: 32px;
+        font-size: 16px;
+    }
+    #containerKategorie > div > h1{
+        font-size: 22px;
+    }
+    #containerKategorie > div{
+        font-size: 15px;
+    }
+
+
+
+  }
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+
+    #containerSelectCategory  > div {
+        width: 18vw;
+        height: 16vw;    
+    }
+        
+    #containerSelectCategory > div > div{
+        padding-top: 2%;
+        font-size: 170%;
+    }
+
+    #loadSaveButtton > button {
+        width: 170px;
+        height: 30px;
+        font-size: 13px;
+    }
+    #customized-menu > div > ul > li > div > span {
+        font-size: 14px;
+    }
+    #h1SelectKategory{
+        font-size: 13px;
+    }
+
+
+
+    
+
+
+    #wyborCwiczenia > div{
+        padding-top: 1%;
+        
+    }
+    #wyborCwiczenia > div > button:disabled {
+        background: rgb(149, 240, 122);
+        color: rgb(0, 0, 0);
+    }
+    #wyborCwiczenia > div > button {
+        background-color: rgb(203, 229, 247);
+        color: rgb(0, 0, 0);
+    }
+    #wyborCwiczenia > div > button:hover {
+        background-color:rgb(183, 221, 248);
+        color: rgb(0, 0, 0);
+    }
+    #wyborCwiczenia > div > button{
+        width: 550px;
+        height: 40px;
+        font-size: 15px;
+    }
+    #NaukaSubmit{
+        padding-top: 0%;
+    }
+    #NaukaSubmit > div{
+        padding-top: 0.5%;
+        padding-bottom: 2%;
+    
+    }
+    #NaukaSubmit > div > div > div > input{
+        padding: 0%;
+        font-size: 20px;
+    }
+    #NaukaSubmit > div > div {
+        width: 350px;
+    }
+    #NaukaSubmit > div > div > div {
+        padding-bottom: 1%;
+    }
+    #NaukaSubmit > div > div > div > input::before {
+        padding-bottom: 1%;
+    }
+    #NaukaSubmit > div > div > label {
+        font-size: 15px;
+    }
+    #NaukaSubmit > div > button{
+        font-size: 18px;
+    
+    }
+    #backToChangeCategory{
+        padding-top: 0.5%;
+    }
+    #backToChangeCategory > button{
+        width: 185px;
+        height: 32px;
+        font-size: 16px;
+    }
+    #containerKategorie > div > h1{
+        font-size: 22px;
+    }
+    #containerKategorie > div{
+        font-size: 15px;
+    }
+
+
+  }

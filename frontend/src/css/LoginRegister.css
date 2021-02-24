@@ -1,0 +1,238 @@
+.root-container {
+    width: 90%;
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 100%;
+    min-height: 76vh;
+}
+
+.box-controller{
+    padding: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 120%;
+}
+
+.controller {
+    padding: 1%;
+}
+.controller:hover {
+    cursor: pointer;
+}
+
+.selected-controller{
+    border-bottom: rgb(59, 122, 204);
+    border-bottom-style: solid;
+    /* transition: all .3s ease-out; */
+}
+
+
+
+.box-container > div > span > h1{
+    border-bottom: rgb(59, 122, 204);
+    border-bottom-style: solid;
+    height: 3vw;
+
+}
+#widht_h1{
+    width: 22vw;
+    display: inline-block;
+}
+
+.box-container{
+    text-align: center;
+}
+
+
+.form > div{
+    padding: 1%;
+}
+.form > div > div{
+    width: 30vw;
+}
+.form > div > div > div > fieldset {
+    border-color: rgb(63, 132, 189);
+}
+.form > div > div > div > input {
+    color: black;
+    font-weight: 800;
+}
+.errorLoginRegister{
+    font-size: 16px;
+}
+
+@media screen and (max-width: 599px){
+    .box-controller{
+        padding: 5%;
+        padding-bottom: 4%;
+        font-size: 650%;
+    }
+    
+    .controller {
+        padding: 3%;
+    }
+
+    .box-container > div > span > h1{
+        border-bottom: rgb(59, 122, 204);
+        border-bottom-style: solid;
+        height: 6vw;
+        font-size: 400%;
+    }
+    #widht_h1{
+        width: 40vw;
+    }
+    
+    .form > div{
+        padding: 3%;
+    }
+    .form > div > div{
+        width: 80vw;
+    }
+    .form > div > div > div > fieldset {
+        border-color: rgb(63, 132, 189);
+    }
+    .form > div > div > div > input {
+        color: black;
+        font-weight: 800;
+        font-size: 500%;
+    }
+    .form > div > div > label {
+        font-size: 500%;
+    }
+    /* .form > div > div > div > fieldset > legend > span{
+        width: 70px;
+    } */
+    #emailWidth > div > div > fieldset > legend > span {
+        width: 21vw;
+    }
+    #passwordWidth > div > div > fieldset > legend > span {
+        width: 10vw;
+    }
+    #confrimWidth > div > div > fieldset > legend > span {
+        width: 27vw;
+    }
+    .form > div > button {
+        height: 50px;
+        width: 250px;
+        font-size: 290%;
+    }
+
+  }
+  @media screen and (min-width: 600px) and (max-width: 767px) {
+    .box-controller{
+        padding: 5%;
+        padding-bottom: 4%;
+        font-size: 450%;
+    }
+    
+    .controller {
+        padding: 3%;
+    }
+
+    .box-container > div > span > h1{
+        border-bottom: rgb(59, 122, 204);
+        border-bottom-style: solid;
+        height: 5vw;
+        font-size: 330%;
+    
+    }
+    #widht_h1{
+        width: 30vw;
+    }
+    
+    .form > div > button{
+        padding: 3%;
+    }
+    .form > div > div{
+        width: 65vw;
+    }
+    .form > div > div > div > fieldset {
+        border-color: rgb(63, 132, 189);
+    }
+    .form > div > div > div > input {
+        color: black;
+        font-weight: 800;
+        font-size: 500%;
+    }
+    .form > div > div > label {
+        font-size: 500%;
+    }
+    /* .form > div > div > div > fieldset > legend > span{
+        width: 70px;
+    } */
+    #emailWidth > div > div > fieldset > legend > span {
+        width: 21vw;
+    }
+    #passwordWidth > div > div > fieldset > legend > span {
+        width: 10vw;
+    }
+    #confrimWidth > div > div > fieldset > legend > span {
+        width: 27vw;
+    }
+    .form > div > button {
+        height: 50px;
+        width: 220px;
+        font-size: 240%;
+    }
+
+  }
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    .box-controller{
+        padding: 5%;
+        padding-bottom: 4%;
+        font-size: 250%;
+    }
+    
+    .controller {
+        padding: 3%;
+    }
+
+    .box-container > div > span > h1{
+        border-bottom: rgb(59, 122, 204);
+        border-bottom-style: solid;
+        height: 4vw;
+        font-size: 200%;
+    
+    }
+    #widht_h1{
+        width: 20vw;
+    }
+    
+    .form > div{
+        padding: 2%;
+    }
+    .form > div > div{
+        width: 45vw;
+    }
+    .form > div > div > div > fieldset {
+        border-color: rgb(63, 132, 189);
+    }
+    .form > div > div > div > input {
+        color: black;
+        font-weight: 800;
+        font-size: 250%;
+    }
+    .form > div > div > label {
+        font-size: 250%;
+    }
+    /* .form > div > div > div > fieldset > legend > span{
+        width: 70px;
+    } */
+    #emailWidth > div > div > fieldset > legend > span {
+        width: 11vw;
+    }
+    #passwordWidth > div > div > fieldset > legend > span {
+        width: 5vw;
+    }
+    #confrimWidth > div > div > fieldset > legend > span {
+        width: 14vw;
+    }
+    .form > div > button {
+        height: 40px;
+        width: 180px;
+        font-size: 170%;
+    }
+  }
